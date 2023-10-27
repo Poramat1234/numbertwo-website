@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar{
+    background: #bcffad;
+    height: 55px;
+    width: 100%;
+    margin: auto;
+}
+
+.icon{
+    float: left;
+}
+
+.logo{
+    font-family: Arial;
+    font-size: 30px;
+    margin: 10px;
+    margin-left: 15px;
+    color: #ff7200;
+}
+.menu{
+    width: 500px;
+    height: 40px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    font-size: 20px;
+    float: left;
+    margin: 60px;
+    margin-top: 78px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #6a6a6a;
+    font-family: Arial;
+    margin: 20px;
+    transition: 0.7s;
+    font-weight: bold;
+}
+
+ul li a:hover{
+    color: #ff7200;
+}
+
+.cafe{
+    margin-left: 240px;
+    margin-top: 60px;
+}
+
+.cafe img{
+    border: 5px solid rgb(60, 54, 54);
+    border-radius: 5px;
+}
+
+.cafe p{
+    font-size: 30px;
+    margin-left: 240px;
+    margin-top: 20px;
+}
+
+.ner{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.imgm{
+    border: 5px solid rgb(60, 54, 54);
+    border-radius: 5px;
+}.ner p{
+    font-size: 30px;
+    text-align: left;
+    margin-left: 560px;
+    margin-top: 20px;
+}
+
+button{
+    width: 60px;
+    height:34px;
+    border: none;
+    color: #000000;
+    background: #bcffad;
+    border-radius: 5px;
+    margin-top: px;
+}
